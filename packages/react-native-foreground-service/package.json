@@ -1,0 +1,41 @@
+{
+  "name": "@config-plugins/react-native-foreground-service",
+  "version": "3.0.2",
+  "description": "Config plugin for react-native-foreground-service package",
+  "main": "build/withReactNativeForegroundService.js",
+  "types": "build/withReactNativeForegroundService.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/config-plugins.git",
+    "directory": "packages/react-native-foreground-service"
+  },
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "files": [
+    "build",
+    "app.plugin.js"
+  ],
+  "keywords": [
+    "react",
+    "expo",
+    "config-plugins",
+    "prebuild",
+    "react-native-foreground-service",
+    "expo-42"
+  ],
+  "peerDependencies": {
+    "expo": "^46.0.2"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^2.0.0"
+  },
+  "upstreamPackage": "react-native-foreground-service"
+}
